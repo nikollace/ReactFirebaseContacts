@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import ContactForm from './ContactForm';
-import Navbar from './Navbar';
 import Fire from '../fire';
 import Jumbotron from './Jumbotron';
 
@@ -110,12 +109,10 @@ const Contacts = (props) => {
                                         <td>{contactObjects[id].email}</td>
                                         <td>
                                             <a className="btn btn-primary" onClick={() => {setCurrentId(id)}}>
-                                                {/* <i className="fas fa-pencil-alt"></i> */}
-                                                U
+                                                <i className="fa fa-pencil"></i>
                                             </a>
                                             <a className="btn btn-danger" onClick={() => {onDelete(id)}}>
-                                                D
-                                                {/* <i className="fas fa-trash-alt"></i> */}
+                                                <i className="fa fa-trash"></i>
                                             </a>
                                         </td>
                                     </tr>

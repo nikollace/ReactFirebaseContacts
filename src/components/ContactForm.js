@@ -47,7 +47,7 @@ const ContactForm = (props) => {
             <div className="form-group input-group">
                 <div className="input-group-prepand">
                     <div className="input-group-text">
-                    <i className="fas fa-user"></i>
+                    <i className="fa fa-user"></i>
                     </div>
                 </div>
                 <input className="form-control" placeholder="Full Name" 
@@ -60,7 +60,7 @@ const ContactForm = (props) => {
             <div className="form-group input-group col-md-6">
                 <div className="input-group-prepand">
                     <div className="input-group-text">
-                    <i className="fas fa-mobile-alt"></i>
+                    <i className="fa fa-mobile"></i>
                     </div>
                 </div>
                 <input className="form-control" placeholder="Mobile" 
@@ -72,7 +72,7 @@ const ContactForm = (props) => {
             <div className="form-group input-group col-md-6">
                 <div className="input-group-prepand">
                     <div className="input-group-text">
-                    <i className="fas fa-envelope"></i>
+                    <i className="fa fa-envelope"></i>
                     </div>
                 </div>
                 <input className="form-control" placeholder="Email" 
